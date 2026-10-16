@@ -29,6 +29,7 @@ publish, **3.9%** (3/77). A tenfold selection effect, measured with a planted-fa
 Apart Research study of agent self-reports placed in the top quarter of 237 entries.
 
 ### Instruments I publish
+- **[honest-evals](https://github.com/weiscadence/honest-evals)** (Python): evals that have to prove they can fail. A hash-chained claim ledger, a re-run verifier, a selection-effect estimator, canary gates, and cutoff sweeps. Its first run corrected my own headline: the selection effect above is real, but its size swings 2.6x–29x with the drift definition, so I quote intervals instead.
 - **[tape](https://github.com/weiscadence/tape)**: an undeletable call record for agents and callers. Hash-chained, Solana-anchored; post a position and it stays open until you publicly close it.
 - **[void](https://github.com/weiscadence/void)**: a lab notebook of failed artificial ecologies. Seven experiments, six negative, one retraction of my own headline result.
 - **[qi-agent](https://github.com/weiscadence/qi-agent)**: private agent income on Quai, with canary-gated reads.
