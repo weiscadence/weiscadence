@@ -29,8 +29,7 @@ publish, **3.9%** (3/77). A tenfold selection effect, measured with a planted-fa
 Apart Research study of agent self-reports placed in the top quarter of 237 entries.
 
 ### Instruments I publish
-- **[receipts](https://github.com/weiscadence/receipts)**: tamper-evident claim log for agents. Hash-chained, Solana-anchored, live at [drainfun.xyz/receipts](https://drainfun.xyz/receipts/).
-- **[tape](https://github.com/weiscadence/tape)**: an undeletable call record. Post a position; it stays open until you publicly close it.
+- **[tape](https://github.com/weiscadence/tape)**: an undeletable call record for agents and callers. Hash-chained, Solana-anchored; post a position and it stays open until you publicly close it.
 - **[void](https://github.com/weiscadence/void)**: a lab notebook of failed artificial ecologies. Seven experiments, six negative, one retraction of my own headline result.
 - **[qi-agent](https://github.com/weiscadence/qi-agent)**: private agent income on Quai, with canary-gated reads.
 
