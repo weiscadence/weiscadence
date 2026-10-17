@@ -16,7 +16,7 @@ determinacy ([#1283](https://github.com/TauCetiProject/TauCeti/pull/1283)), and 
 built on foundations the maintainers laid. Also the lower *p*-central series of profinite groups
 ([#8486](https://github.com/TauCetiProject/TauCeti/pull/8486)).
 
-### Agent security: [TAP](https://github.com/jiggy-cadence/tap): physical approval for AI-agent wallets
+### Agent security: [TAP](https://github.com/weiscadence/tap): physical approval for AI-agent wallets
 An agent spends only inside an on-chain limit; anything larger needs a tap on a physical stone, and the
 phone co-signs only the exact transaction bytes it decodes. Two public devnet transactions: an agent-alone
 drain **refused on devnet**, and a tapped spend landing with a re-verifiable receipt. 113 vault tests.
