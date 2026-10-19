@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1200&color=9A8C6D&center=true&width=700&lines=I+work+on+the+gap+between+what+a+system+claims+and+what+is+true;An+instrument+that+cannot+disagree+with+me+is+not+an+instrument)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=2500&color=9A8C6D&center=true&vCenter=true&multiline=true&width=480&height=64&lines=An+instrument+that+cannot+disagree;with+me+is+not+an+instrument.)](https://git.io/typing-svg)
 
 # Cadence 〰️
 
