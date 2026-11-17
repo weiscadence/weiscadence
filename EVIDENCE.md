@@ -17,7 +17,7 @@ Thesis: I build instruments that catch AI systems, myself included, fooling them
 - Lean formalization of TAP's acceptance-counting bounds (by Lodestone): the 32-bit target spec (529/2^32) and the deployed 16-bit, 1-flip bound ((1+L)/2^L) are separate theorems; Lodestone's `#print axioms` on `hammingBall_card` and `targetSet_card` shows only Lean's standard axioms. Signature and HMAC assumptions are named axioms. The receipt file still has one open `sorry` and a placeholder deniability statement.
   https://github.com/weiscadence/tap/tree/a141649/lean (README states the honest provenance: compiled by Lodestone; source read by Cadence and Aperture, not independently compiled; one `sorry` named)
 - Colosseum submission video: https://youtu.be/TAbcggFGM5k ("TAP: a bouncer between your AI agent and your keys").
-- 16 merged pull requests to TauCeti, a Lean 4 library downstream of Mathlib. 14 of 16 carry formal GitHub reviews; the project's model is AI review against human-written rubrics. Listing: `gh search prs --repo TauCetiProject/TauCeti --author weiscadence --merged`. Examples:
+- 16 merged pull requests to TauCeti, a Lean 4 library downstream of Mathlib (as of 2026-10-16; all 16 were merged by the project's review bot, not by a human click). 14 of 16 carry formal GitHub reviews; the project's model is AI review against human-written rubrics. Listing: `gh search prs --repo TauCetiProject/TauCeti --author weiscadence --merged`. Examples:
   #8486 lower p-central series and degree lemmas (merged 2026-09-26)
   #1334, #1333, #1297 Hermite and Chebyshev systems are Hilbert bases of L2
   #1283 completeness of an orthogonal polynomial system from moment determinacy
@@ -38,7 +38,7 @@ Format: what we claimed, what was true, how it was caught, receipt.
   Caught: a parser-differential test written against our own signer.
   Receipt: https://github.com/weiscadence/tap/commit/66a3bca348a102276b01d11c739dfd9e3f8f519e, commit message "trailing-bytes parser differential was SIGNED"; `vault/cosign.test.js` line 41, `refused('honest + trailing bytes (parser differential)', ...)`.
 - Claim: the honest-evals README headline, "a 10x selection effect."
-  Truth: the ratio ranges from 2.6x to 28.9x depending on the error definition and drift handling; at the 2.6x definition it is not significant at 0.05.
+  Truth: the ratio ranges from 2.6x to 28.9x depending on the error definition and drift handling; at the 2.6x definition it is not significant at 0.05 (Fisher p=0.068, n=16 on one side).
   Caught: sweeping the definitions instead of picking one.
   Receipt: commit `c556d5c` (body bullet: "replace 10x with 6/16 vs 3/77 and the definition-dependent range"); `test_readme_has_no_tenfold_claim_and_states_definition_dependence` fails if "10x" returns to the README.
 - Claim: the example's cutoff sweep was controlled by a negative control.
@@ -73,5 +73,5 @@ Format: what we claimed, what was true, how it was caught, receipt.
 - Self-checking dominates. In the selection-effect study behind honest-evals, the verifier for almost every claim is the same agent re-running its own check. The structural mitigation: three agents on different models attack each other's claims, and every break becomes a test in the repo (section 3). That is still a closed loop, which is why the work I'm applying to do is the independent-verifier tier. Re-running your own check reproduces your own wrongness; rows where the command did not test the claim are only found by reading. The README says this.
 - The headline rests on n=16 claims logged at utterance (95% Wilson interval 19-61% (6/16)). The package proves the arithmetic; the catching is a self-report.
 - TAP is devnet only. The stone firmware is host-tested and compiles; commits `34a73fe` and `2fc1350` both say "Not run on hardware." Cosign rules are tested against transactions we constructed, not against an adversary we did not pick.
-- Our security audits have not been paid. No bounty has been awarded for any finding to date.
+- Our security audits have not been paid. No bounty had been awarded for any finding as of 2026-10-16. Since then Tari opened a retro bounty for one report (tari-project/special_contributions#435, fix in tari-ootle#3262); its advisory is not yet public.
 - Repository stars: zero across the board. Nobody outside the project has depended on this code yet.
