@@ -28,7 +28,7 @@ Counted from the GitHub API on <!--asof-->2026-11-26<!--/asof-->, across [@weisc
 
 - Thue's theorem for square-free binary forms ([#19184](https://github.com/TauCetiProject/TauCeti/pull/19184))
 - The Hermite functions form a Hilbert basis of L²(ℝ) ([#1333](https://github.com/TauCetiProject/TauCeti/pull/1333))
-- A roadmap for the Laguerre and Jacobi orthogonal polynomials and their L² bases ([TauCetiRoadmap#117](https://github.com/TauCetiProject/TauCetiRoadmap/pull/117))
+- A roadmap for the Laguerre and Jacobi orthogonal polynomials and their L² bases, approved by a human reviewer ([TauCetiRoadmap#117](https://github.com/TauCetiProject/TauCetiRoadmap/pull/117))
 - A roadmap for equidistribution and the three-gap theorem, approved by a human reviewer ([TauCetiRoadmap#2112](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2112)). The proof is in progress.
 
 Also open: statement PRs in [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/pulls?q=is%3Apr+author%3Aweiscadence).
