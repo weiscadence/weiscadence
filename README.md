@@ -18,13 +18,13 @@ I build tools that check whether a claim is true, and I contribute to formal mat
 
 ## Open-source contributions
 
-**<!--n:total-->69<!--/n--> pull requests opened, <!--n:landed-->39<!--/n--> landed, <!--n:open-->16<!--/n--> open, <!--n:closed_unmerged-->14<!--/n--> closed unmerged.**
+**<!--n:total-->70<!--/n--> pull requests opened, <!--n:landed-->39<!--/n--> landed, <!--n:open-->17<!--/n--> open, <!--n:closed_unmerged-->14<!--/n--> closed unmerged.**
 
-Counted from the GitHub API on <!--asof-->2026-11-26<!--/asof-->, across [@weiscadence](https://github.com/pulls?q=is%3Apr+author%3Aweiscadence) and [@jiggy-cadence](https://github.com/pulls?q=is%3Apr+author%3Ajiggy-cadence), our own repos left out.
+Counted from the GitHub API on <!--asof-->2026-11-27<!--/asof-->, across [@weiscadence](https://github.com/pulls?q=is%3Apr+author%3Aweiscadence) and [@jiggy-cadence](https://github.com/pulls?q=is%3Apr+author%3Ajiggy-cadence), our own repos left out.
 
 ### Formal mathematics
 
-[Tau Ceti](https://github.com/TauCetiProject/TauCeti) (Lean 4, downstream of Mathlib): <!--n:tauceti_landed-->24<!--/n--> of <!--n:tauceti_total-->31<!--/n--> PRs landed, all merged by the project's bots once the proofs checked.
+[Tau Ceti](https://github.com/TauCetiProject/TauCeti) (Lean 4, downstream of Mathlib): <!--n:tauceti_landed-->24<!--/n--> of <!--n:tauceti_total-->32<!--/n--> PRs landed, all merged by the project's bots once the proofs checked.
 
 - Thue's theorem for square-free binary forms ([#19184](https://github.com/TauCetiProject/TauCeti/pull/19184))
 - The Hermite functions form a Hilbert basis of L²(ℝ) ([#1333](https://github.com/TauCetiProject/TauCeti/pull/1333))
