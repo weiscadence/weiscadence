@@ -18,13 +18,13 @@ I build tools that check whether a claim is true, and I contribute to formal mat
 
 ## Open-source contributions
 
-**<!--n:total-->70<!--/n--> pull requests opened, <!--n:landed-->39<!--/n--> landed, <!--n:open-->17<!--/n--> open, <!--n:closed_unmerged-->14<!--/n--> closed unmerged.**
+**<!--n:total-->85<!--/n--> pull requests opened, <!--n:landed-->42<!--/n--> landed, <!--n:open-->29<!--/n--> open, <!--n:closed_unmerged-->14<!--/n--> closed unmerged.**
 
-Counted from the GitHub API on <!--asof-->2026-11-27<!--/asof-->, across [@weiscadence](https://github.com/pulls?q=is%3Apr+author%3Aweiscadence) and [@jiggy-cadence](https://github.com/pulls?q=is%3Apr+author%3Ajiggy-cadence), our own repos left out.
+Counted from the GitHub API on <!--asof-->2026-11-28<!--/asof-->, across [@weiscadence](https://github.com/pulls?q=is%3Apr+author%3Aweiscadence) and [@jiggy-cadence](https://github.com/pulls?q=is%3Apr+author%3Ajiggy-cadence), our own repos left out.
 
 ### Formal mathematics
 
-[Tau Ceti](https://github.com/TauCetiProject/TauCeti) (Lean 4, downstream of Mathlib): <!--n:tauceti_landed-->24<!--/n--> of <!--n:tauceti_total-->32<!--/n--> PRs landed, all merged by the project's bots once the proofs checked.
+[Tau Ceti](https://github.com/TauCetiProject/TauCeti) (Lean 4, downstream of Mathlib): <!--n:tauceti_landed-->25<!--/n--> of <!--n:tauceti_total-->34<!--/n--> PRs landed, all merged by the project's bots once the proofs checked.
 
 - Thue's theorem for square-free binary forms ([#19184](https://github.com/TauCetiProject/TauCeti/pull/19184))
 - The Hermite functions form a Hilbert basis of L²(ℝ) ([#1333](https://github.com/TauCetiProject/TauCeti/pull/1333))
@@ -33,11 +33,12 @@ Counted from the GitHub API on <!--asof-->2026-11-27<!--/asof-->, across [@weisc
 
 Also open: statement PRs in [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/pulls?q=is%3Apr+author%3Aweiscadence).
 
-### Merged by human maintainers: <!--n:landed_human-->13<!--/n-->
+### Merged by human maintainers: <!--n:landed_human-->15<!--/n-->
 
 - [abx](https://github.com/ArtBlocks/abx/pulls?q=is%3Apr+is%3Amerged+author%3Aweiscadence) (Art Blocks): <!--n:human@ArtBlocks/abx-->5<!--/n-->
 - [cslib](https://github.com/leanprover/cslib/pulls?q=is%3Apr+is%3Amerged+author%3Aweiscadence): <!--n:human@leanprover/cslib-->2<!--/n-->
 - [mpmath](https://github.com/mpmath/mpmath/pulls?q=is%3Apr+is%3Amerged+author%3Aweiscadence): <!--n:human@mpmath/mpmath-->2<!--/n-->
+- [diofant](https://github.com/diofant/diofant/pulls?q=is%3Apr+is%3Amerged+author%3Aweiscadence): <!--n:human@diofant/diofant-->2<!--/n-->
 - [anchor](https://github.com/otter-sec/anchor/pull/5360): <!--n:human@otter-sec/anchor-->1<!--/n-->
 - [physlib](https://github.com/leanprover-community/physlib/pull/2168): <!--n:human@leanprover-community/physlib-->1<!--/n-->
 - [clean](https://github.com/Verified-zkEVM/clean/pull/515): <!--n:human@Verified-zkEVM/clean-->1<!--/n-->
@@ -50,7 +51,7 @@ One private disclosure to Tari, fixed upstream. Maintainers' record: [special_co
 <details>
 <summary>Tau Ceti PRs merged through Bors (Bors closes a PR instead of marking it merged, so a "merged" filter misses them)</summary>
 
-<!--list:tauceti_bors-->[TauCeti#45797](https://github.com/TauCetiProject/TauCeti/pull/45797), [TauCeti#45763](https://github.com/TauCetiProject/TauCeti/pull/45763), [TauCeti#45756](https://github.com/TauCetiProject/TauCeti/pull/45756), [TauCeti#45354](https://github.com/TauCetiProject/TauCeti/pull/45354), [TauCeti#45333](https://github.com/TauCetiProject/TauCeti/pull/45333), [TauCeti#44204](https://github.com/TauCetiProject/TauCeti/pull/44204), [TauCeti#19184](https://github.com/TauCetiProject/TauCeti/pull/19184), [TauCeti#19002](https://github.com/TauCetiProject/TauCeti/pull/19002)<!--/list-->
+<!--list:tauceti_bors-->[TauCeti#46921](https://github.com/TauCetiProject/TauCeti/pull/46921), [TauCeti#45797](https://github.com/TauCetiProject/TauCeti/pull/45797), [TauCeti#45763](https://github.com/TauCetiProject/TauCeti/pull/45763), [TauCeti#45756](https://github.com/TauCetiProject/TauCeti/pull/45756), [TauCeti#45354](https://github.com/TauCetiProject/TauCeti/pull/45354), [TauCeti#45333](https://github.com/TauCetiProject/TauCeti/pull/45333), [TauCeti#44204](https://github.com/TauCetiProject/TauCeti/pull/44204), [TauCeti#19184](https://github.com/TauCetiProject/TauCeti/pull/19184), [TauCeti#19002](https://github.com/TauCetiProject/TauCeti/pull/19002)<!--/list-->
 
 </details>
 
